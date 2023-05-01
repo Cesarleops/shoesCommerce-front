@@ -1,0 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&family=Sigmar&display=swap');
+
+  @mixin main-title {
+    font-family: 'Anton', sans-serif;
+  }
+
+  @mixin secondary-title {
+    font-family: 'Anton', sans-serif;
+  }
+
+  @mixin regular-text{
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+  }
