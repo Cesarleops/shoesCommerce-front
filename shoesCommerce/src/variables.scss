@@ -3,13 +3,16 @@
 
   @mixin main-title {
     font-family: 'Anton', sans-serif;
+    margin: 0;
   }
 
   @mixin secondary-title {
     font-family: 'Anton', sans-serif;
+    margin: 0;
   }
 
   @mixin regular-text{
     font-family: 'Anton', sans-serif;
     font-size: 15px;
+    margin: 0;
   }

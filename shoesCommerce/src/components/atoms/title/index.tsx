@@ -6,9 +6,9 @@ interface Props {
 }
 export const Title = ({ text, shape }: Props) => {
   return shape === "page" ? (
-    <h1 className="main_title">{text}</h1>
+    <p className="main_title">{text}</p>
   ) : shape === "section" ? (
-    <h3>{text}</h3>
+    <p className="section_title">{text}</p>
   ) : (
     <h5>{text}</h5>
   );

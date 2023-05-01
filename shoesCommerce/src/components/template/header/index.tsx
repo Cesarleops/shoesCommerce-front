@@ -1,3 +1,5 @@
+import "./header.scss";
+
 export const Header = ({ children }: any) => {
-  return <div>{children}</div>;
+  return <div className="header">{children}</div>;
 };
